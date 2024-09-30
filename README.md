@@ -2,7 +2,10 @@
 我請llama3.1協作一個命令列下的 llama.cpp 選單式啟動器  
 會把指令目錄下的gguf檔案 以遞迴方式搜尋  
 然後製成列表供使用者選擇  
-最後使用llama-server啟動被選擇的大語言模型  
+最後會將選擇的大語言模型交給  
+llama-server啟動  
+
+## 使用例子
 ```
 ./sls.sh  /media/nvidia/sd/
 ```
